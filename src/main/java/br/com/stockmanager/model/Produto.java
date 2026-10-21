@@ -1,6 +1,9 @@
 package br.com.stockmanager.model;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class Produto {
 
@@ -19,13 +22,13 @@ public class Produto {
     @Override
     public String toString() {
         return "Produto{" +
-                "id=" + id +
-                ", codigo='" + codigo + '\'' +
-                ", nome='" + nome + '\'' +
-                ", categoria='" + categoria + '\'' +
-                ", precoCompra=" + precoCompra +
-                ", precoVenda=" + precoVenda +
-                ", quantidade=" + quantidade +
+                "id= " + id +
+                ", codigo= '" + codigo + '\'' +
+                ", nome= '" + nome + '\'' +
+                ", categoria= '" + categoria + '\'' +
+                ", precoCompra= " + precoCompra +
+                ", precoVenda= " + precoVenda +
+                ", quantidade= " + quantidade +
                 '}';
     }
 
@@ -89,5 +92,6 @@ public class Produto {
         this.precoVenda = precoVenda;
         this.quantidade = quantidade;
     }
+
 
 }
